@@ -14,6 +14,13 @@ where
 * --table: Target table name, e.g., 'queuedata'.
 * --json: Path to JSON file.
 
+**Example**
+
+Read an existing queuedata.json file and produce a queuedata.db DuckDB file:
+
+```bash
+python3 json_to_duckdb.py --json queuedata.json --table queuedata --db queuedata.db
+```
 
 
 
